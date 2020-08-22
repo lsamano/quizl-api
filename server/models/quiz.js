@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
+const { QuestionSchema } = require('./question');
 
 const QuizSchema = new mongoose.Schema({
   title: String,
-  questions: Array
+  questions: [QuestionSchema]
 }, { timestamps: true })
 
 module.exports = mongoose.model('Quiz', QuizSchema)
