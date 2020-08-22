@@ -1,0 +1,10 @@
+{
+  "name": "quizl-api",
+  "version": "1.0.0",
+  "description": "API for Quizl.",
+  "main": "index.js",
+  "repository": "https://github.com/lsamano/quizl-api",
+  "author": "lsamano <leizl.samano@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
