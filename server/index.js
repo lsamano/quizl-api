@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const logger = require('morgan');
+const Quiz = require('./models/quiz');
 require('dotenv').config();
 
 const API_PORT = process.env.PORT;
